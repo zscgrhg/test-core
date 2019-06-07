@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hello-client/hello-client.iml" filepath="$PROJECT_DIR$/hello-client/hello-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hello-provider/hello-provider.iml" filepath="$PROJECT_DIR$/hello-provider/hello-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-api/support-api.iml" filepath="$PROJECT_DIR$/support-api/support-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/support-api/support-impl.iml" filepath="$PROJECT_DIR$/support-api/support-impl.iml" />
+    </modules>
+  </component>
+</project>
