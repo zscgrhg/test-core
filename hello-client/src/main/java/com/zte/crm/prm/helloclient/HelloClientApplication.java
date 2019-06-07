@@ -5,7 +5,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @SpringBootApplication(scanBasePackages = "com.zte")
-@EnableFeignClients(basePackages = "com.zte")
+@EnableFeignClients(
+        clients = {com.zte.crm.prm.supportapi.codegen.ClientOfHelloContract.class}
+)
 public class HelloClientApplication {
 
     public static void main(String[] args) {
