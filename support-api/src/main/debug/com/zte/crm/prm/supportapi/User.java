@@ -1,7 +1,6 @@
 package com.zte.crm.prm.supportapi;
 
 import com.zte.crm.prm.anno.Mixin;
-import com.zte.crm.prm.model.Job;
 import lombok.Data;
 
 @Data
