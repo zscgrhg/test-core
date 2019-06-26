@@ -5,10 +5,10 @@ import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @FeignClient(name = "zte-crm-prm-common",
-        url = "http://localhost:8881",
-        contextId = "feignclient#25a8dd6bd775732aae7efe76e1300b83")
+        url = "http://localhost:8881")
 @RemoteServiceContract
 @RequestMapping("/fc/fc/fc")
+
 public interface HelloContract {
 
 
